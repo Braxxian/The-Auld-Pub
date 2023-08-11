@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Noto+Serif:wght@600&display=swap');
+
+/*wildcard selector to override browser defaults and box-sizing to include border
+in element sizing*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
