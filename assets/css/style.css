@@ -7,3 +7,54 @@ in element sizing*/
     margin: 0;
     box-sizing: border-box;
 }
+
+/* Default Styles*/
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Noto Serif', serif;
+    color: #361e06;
+
+}
+
+/*Head Section*/
+header {
+    height: 20vh;
+    background-image: url("../images/pinewood.jpg");
+    border-bottom: #361e06;
+    border-bottom-style: double;
+    border-width: 3px;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+
+}
+
+.logo {
+    width: 6rem;
+    height: 6rem;
+
+}
+
+.violin {
+    width: 6rem;
+    height: 6rem;
+}
+.navbar {
+    display: flex;
+    justify-content: space-around;
+}
+
+/*Main Section*/
+main {
+    background-color: brown;
+    flex: 1 0 auto;
+}
+
+/*Footer*/
+footer {
+    background-color: burlywood;
+}
