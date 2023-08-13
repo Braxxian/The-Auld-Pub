@@ -107,6 +107,7 @@ footer {
     border-top: #361e06;
     border-top-style: double;
     border-width: 3px;
+    box-shadow: 0 -2px 2px #361e06;
 } 
 
 .social-media{
