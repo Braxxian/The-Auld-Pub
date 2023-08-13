@@ -17,6 +17,7 @@ body {
     color: #361e06;
 
 }
+
 /*Head Section*/
 header {
     height: 20vh;
@@ -40,7 +41,7 @@ header {
     margin-top: 0.5rem;
     width: 6rem;
     height: 4rem;
-    border-color:  #eead08;
+    border-color: #eead08;
     border-style: groove;
     border-width: 2px;
     box-shadow: 1px 1px 2px black;
@@ -56,55 +57,70 @@ header {
 .navbar {
     display: flex;
     justify-content: space-around;
-    
+
 }
-.navbar p{
+
+.navbar p {
     color: #eead08;
     font-family: 'merriweather', serif;
     font-size: 1.6rem;
     letter-spacing: 2px;
     text-shadow: 2px 2px 2px #361e06;
     transition: 0.2s;
-    
+
 }
-.navbar p:hover{
+
+.navbar p:hover {
     font-size: 2rem;
-    opacity:0.6;
+    opacity: 0.6;
     text-decoration: underline;
 }
 
 
-.navbar a{
+.navbar a {
     text-decoration: none;
 }
 
-   
-    /*Main Section*/
+
+/*Main Section*/
 main {
     flex: 1 0 auto;
     padding-top: 20vh;
+    background: url('../images/pinewood.jpg');
 }
+
 /*Hero Section*/
-#hero{
+#hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 38rem;
     width: 100%;
-    background:url(../images/view-bar-counter.jpg) no-repeat center center/cover;
+    background: url(../images/view-bar-counter.jpg) no-repeat center center/cover;
     padding-bottom: 64px;
+    position: relative;
 }
+
 .text-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    /* Center text horizontally */
     align-items: center;
     padding-right: 5px;
     font-size: 1.4rem;
+    background-color: rgba(234, 236, 208, 0.3);
+    position: absolute;
+    width: 80%;
+    height: 50%;
+
+
 }
+
 .text-container .p1,
 .text-container .p2 {
-    white-space: nowrap;
     color: #361e06;
     font-size: 1.8rem;
+    padding-left: 5px;
 }
 
 .red-text {
@@ -120,8 +136,6 @@ main {
     text-shadow: 1px 1px 2px #361e06;
     margin-bottom: 0.5rem;
     padding-left: 0.5rem;
-
-
 }
 
 .gold-text {
@@ -130,12 +144,44 @@ main {
     text-shadow: 2px 2px 3px #361e06;
 }
 
+/*Music dates Table styles*/
+#music {
+    background: url('../images/musicians-portrait.jpg')no-repeat center center /cover;
+    padding-bottom: 64px;
+}
+
+.table-wrap {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.table-music {
+    margin-top: 2rem;
+    font-family: Helvetica, sans-serif;
+    color: antiquewhite;
+
+}
+
+.month {
+    font-size: 1.6rem;
+    padding-top: 2rem;
+    padding-right: 6rem;
+    color: darkgray;
+}
+
+.highlight {
+    padding-top: 1rem;
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: #EEB22F;
+}
+
 /*Footer  --credit to Gerben Van Dijk @ stackoverflow
 for suggesting method of fixing the footer*/
 footer {
     background-image: url(../images/pinewood.jpg);
     height: 4rem;
-    width: 100%; 
+    width: 100%;
     background: center center no-repeat /cover;
     background-attachment: scroll;
     background-position: 0% 0%;
@@ -147,42 +193,69 @@ footer {
     border-top-style: double;
     border-width: 3px;
     box-shadow: 0 -2px 2px #361e06;
-} 
-
-.social-media{
-    
-    display: flex; 
-    flex-direction: row; 
-    justify-content: center;
-    justify-content: space-around; 
-    align-items: center; 
 }
-.social-media i{
+
+.social-media {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.social-media i {
     padding-top: 1rem;
     font-size: 2rem;
     color: #423004;
 }
 
-/* Sizing for 768px screens-plus*/
-@media screen and (min-width:768px) {
+@media screen and (max-width: 450px) {
+    .text-container {
+        width: 90%;
+        height: 40%;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
+
+@media screen and (min-width:900px) {
     /*Header*/
-   
+
     .navbar p {
         font-size: 2.5rem;
         margin-bottom: 1rem;
     }
-    .navbar p:hover{
+
+    .navbar p:hover {
         font-size: 3rem;
-        opacity:0.6;
+        opacity: 0.6;
         text-decoration: underline;
     }
+
     .logo {
         margin-top: 0.5rem;
         width: 8rem;
         height: 6rem;
     }
-    
-    
 
-    
+    .text-container {
+        width: 60%;
+        height: 40%;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 2.5rem;
+    }
+
+    .text-container .p1,
+    .text-container .p2 {
+        font-size: 2.5rem;
+
+    }
+
+
+
+
 }
