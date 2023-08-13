@@ -176,6 +176,15 @@ main {
     color: #EEB22F;
 }
 
+.music-text {
+    display: flex;
+    justify-content: center;
+}
+
+.spacer {
+    height: 0.5rem;
+}
+
 /*Footer  --credit to Gerben Van Dijk @ stackoverflow
 for suggesting method of fixing the footer*/
 footer {
@@ -210,6 +219,41 @@ footer {
     color: #423004;
 }
 
+@media screen and (max-width: 375px) {
+    body {
+        padding: 0;
+    }
+
+    .logo {
+        margin-top: 0.3rem;
+        width: 5rem;
+        height: 3.5rem;
+    }
+
+    .navbar p {
+        font-size: 1.4rem;
+    }
+
+    .h1smaller {
+        font-size: 1.4rem;
+    }
+
+    .text-container .p1,
+    .text-container .p2 {
+        font-size: 1.4rem;
+    }
+
+    .month,
+    .highlight {
+        font-size: 1.2rem;
+    }
+
+    .table-wrap {
+        width: 90%;
+        margin: 0 auto;
+    }
+}
+
 @media screen and (max-width: 450px) {
     .text-container {
         width: 90%;
@@ -220,8 +264,7 @@ footer {
     }
 }
 
-@media screen and (min-width:900px) {
-    /*Header*/
+@media screen and (min-width:920px) {
 
     .navbar p {
         font-size: 2.5rem;
@@ -254,8 +297,5 @@ footer {
         font-size: 2.5rem;
 
     }
-
-
-
 
 }
