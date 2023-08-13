@@ -98,7 +98,12 @@ main {
     width: 100%;
     background: url(../images/view-bar-counter.jpg) no-repeat center center/cover;
     padding-bottom: 64px;
+    /*Parallax Effect*/
     position: relative;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .text-container {
@@ -112,6 +117,7 @@ main {
     position: absolute;
     width: 80%;
     height: 50%;
+    border-radius: 10%;
 
 
 }
@@ -148,6 +154,12 @@ main {
 #music {
     background: url('../images/musicians-portrait.jpg')no-repeat center center /cover;
     padding-bottom: 64px;
+    /*Parallax Effect*/
+    position: relative;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .table-wrap {
@@ -219,6 +231,23 @@ footer {
     color: #423004;
 }
 
+.contact-link {
+    display: inline-block;
+    border: 2px solid #361e06;
+    border-radius: 10%;
+    margin-top: 1rem;
+    padding: 4px 8px;
+    color: #361e06;
+    background-color: #EEB22F;
+    transition: 0.2s;
+}
+
+.contact-link:hover {
+    background-color: antiquewhite;
+    color: #EEB22F;
+}
+
+/*Sizing for very small screens*/
 @media screen and (max-width: 375px) {
     body {
         padding: 0;
@@ -285,7 +314,7 @@ footer {
 
     .text-container {
         width: 60%;
-        height: 40%;
+        height: 60%;
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
