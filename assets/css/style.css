@@ -41,9 +41,10 @@ header {
     margin-top: 0.5rem;
     width: 6rem;
     height: 4rem;
-    border-color:  #eb9540;
+    border-color:  #eead08;
     border-style: groove;
     border-width: 2px;
+    box-shadow: 1px 1px 2px black;
 
 }
 
@@ -88,7 +89,8 @@ main {
 
 /*Footer*/
 footer {
-    background-color: burlywood;
+    background-image: url(../images/pinewood.jpg);
+    height: 4rem;
 }
 .social-media{
     
@@ -97,15 +99,17 @@ footer {
     justify-content: center;
     justify-content: space-around; 
     align-items: center; 
-    
+}
+.social-media i{
+    padding-top: 1rem;
+    font-size: 2rem;
+    color: #423004;
 }
 
 /* Sizing for 768px screens-plus*/
 @media screen and (min-width:768px) {
     /*Header*/
-    main{
-        padding-top: 20vh;
-    }
+   
     .navbar p {
         font-size: 2.5rem;
         margin-bottom: 1rem;
