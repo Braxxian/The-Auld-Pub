@@ -86,13 +86,52 @@ main {
 }
 /*Hero Section*/
 #hero{
-    height: 30rem;
+    height: 38rem;
     width: 100%;
-    background-color: rgb(172, 114, 43);
+    background:url(../images/view-bar-counter.jpg) no-repeat center center/cover;
     padding-bottom: 64px;
 }
+.text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* Center text horizontally */
+    align-items: center;
+    padding-right: 5px;
+    font-size: 1.4rem;
+}
+.text-container .p1,
+.text-container .p2 {
+    white-space: nowrap;
+    color: #361e06;
+    font-size: 1.8rem;
+}
 
-/*Footer*/
+.red-text {
+    color: #e61313;
+    font-family: 'merriweather', serif;
+    text-shadow: 1px 1px 2px #361e06;
+}
+
+.red-text-left {
+    color: #e61313;
+    font-family: 'merriweather', serif;
+    text-align: left;
+    text-shadow: 1px 1px 2px #361e06;
+    margin-bottom: 0.5rem;
+    padding-left: 0.5rem;
+
+
+}
+
+.gold-text {
+    color: #eead08;
+    font-family: 'merriweather', serif;
+    text-shadow: 2px 2px 3px #361e06;
+}
+
+/*Footer  --credit to Gerben Van Dijk @ stackoverflow
+for suggesting method of fixing the footer*/
 footer {
     background-image: url(../images/pinewood.jpg);
     height: 4rem;
