@@ -203,7 +203,6 @@ main {
     background-image: url("../images/flame-portrait.jpg");
     display: flex;
     flex-direction: column;
-    align-items: center;
     padding-bottom: 64px;
 }
 
@@ -213,6 +212,7 @@ main {
 }
 
 .front-page-menu {
+    align-items: flex-start;
     text-align: center;
     background-image: url("../images/pinewood.jpg");
     margin-top: 2.5rem;
@@ -232,23 +232,23 @@ main {
 
 }
 
-#image-1 {
-    background: url("../images/beef-burger.jpg");
+.image-1 {
+    background: url("../images/beef-burger-square.jpg");
     background-repeat: no-repeat;
     background-size: contain;
     height: 8rem;
-
+    
 }
 
-#image-2 {
-    background: url("../images/chicken-burger.jpg");
+.image-2 {
+    background: url("../images/chicken-burger-square.jpg");
     background-repeat: no-repeat;
     background-size: contain;
     height: 8rem;
 }
 
-#image-3 {
-    background: url("../images/lentils-pistashios-burger.jpg");
+.image-3 {
+    background: url("../images/lentils-pistashios-burger-square.jpg");
     background-repeat: no-repeat;
     background-size: 12rem;
     height: 8rem;
