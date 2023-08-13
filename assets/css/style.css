@@ -15,6 +15,7 @@ body {
     flex-direction: column;
     font-family: 'Noto Serif', serif;
     color: #361e06;
+    background-image: url("../images/pinewood.jpg");
 
 }
 
@@ -150,6 +151,10 @@ main {
     text-shadow: 2px 2px 3px #361e06;
 }
 
+.spacer {
+    height: 0.5rem;
+}
+
 /*Music dates Table styles*/
 #music {
     background: url('../images/musicians-portrait.jpg')no-repeat center center /cover;
@@ -193,9 +198,64 @@ main {
     justify-content: center;
 }
 
-.spacer {
-    height: 0.5rem;
+/*Menu Styles*/
+#the-grill {
+    background-image: url("../images/flame-portrait.jpg");
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 64px;
 }
+
+.main-menu {
+    display: flex;
+    flex-direction: column;
+}
+
+.front-page-menu {
+    text-align: center;
+    background-image: url("../images/pinewood.jpg");
+    margin-top: 2.5rem;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+    padding-top: 0.5rem;
+    height: 6rem;
+    width: 14rem;
+    line-height: 1.2rem;
+}
+
+.front-page-menu p span {
+    white-space: nowrap;
+    font-family: 'Noto Serif', serif;
+    font-size: 0.85rem;
+    color: #361e06;
+
+}
+
+#image-1 {
+    background: url("../images/beef-burger.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 8rem;
+
+}
+
+#image-2 {
+    background: url("../images/chicken-burger.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 8rem;
+}
+
+#image-3 {
+    background: url("../images/lentils-pistashios-burger.jpg");
+    background-repeat: no-repeat;
+    background-size: 12rem;
+    height: 8rem;
+}
+
+
+
 
 /*Footer  --credit to Gerben Van Dijk @ stackoverflow
 for suggesting method of fixing the footer*/
@@ -283,6 +343,7 @@ footer {
     }
 }
 
+/*sizing to ease transition from tablets to larger screens*/
 @media screen and (max-width: 450px) {
     .text-container {
         width: 90%;
@@ -293,6 +354,7 @@ footer {
     }
 }
 
+/*Sizing for large screens*/
 @media screen and (min-width:920px) {
 
     .navbar p {
