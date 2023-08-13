@@ -25,7 +25,6 @@ header {
     border-bottom-style: double;
     border-width: 3px;
     width: 100%;
-    
     position: fixed;
     z-index: 99;
     box-shadow: 0 2px 2px #361e06;
@@ -82,17 +81,34 @@ header {
    
     /*Main Section*/
 main {
-    background-color: brown;
     flex: 1 0 auto;
     padding-top: 20vh;
-    
+}
+/*Hero Section*/
+#hero{
+    height: 30rem;
+    width: 100%;
+    background-color: rgb(172, 114, 43);
+    padding-bottom: 64px;
 }
 
 /*Footer*/
 footer {
     background-image: url(../images/pinewood.jpg);
     height: 4rem;
-}
+    width: 100%; 
+    background: center center no-repeat /cover;
+    background-attachment: scroll;
+    background-position: 0% 0%;
+    position: fixed;
+    bottom: 0pt;
+    left: 0pt;
+    z-index: 99;
+    border-top: #361e06;
+    border-top-style: double;
+    border-width: 3px;
+} 
+
 .social-media{
     
     display: flex; 
