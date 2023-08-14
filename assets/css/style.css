@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Noto+Serif:wght@600&display=swap');
 
+html {
+    scroll-behavior: smooth;
+}
+
 /*wildcard selector to override browser defaults and box-sizing to include border
 in element sizing*/
 * {
@@ -193,6 +197,24 @@ main {
     background-size: cover;
 }
 
+.grill-heading {
+    background-image: url("../images/pinewood.jpg");
+    align-items: center;
+    text-align: center;
+    width: 16rem;
+    height: 16rem;
+    border-radius: 50%;
+    border: 4px solid #eead08;
+    padding-top: 3.4rem;
+    line-height: 2.5rem;
+    font-family: 'merriweather', serif;
+    font-size: 1.8rem;
+    color: #eead08;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.6);
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.6);
+
+}
+
 .menu-container {
     display: flex;
     flex-direction: column;
@@ -216,13 +238,16 @@ main {
     color: #361e06;
     border: 4px solid #eead08;
     border-radius: 0.5rem;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.6);
 }
+
 
 .burger {
     width: 16rem;
     height: 16rem;
     border-radius: 50%;
     border: 4px solid #eead08;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.6);
 }
 
 .red-text {
@@ -333,6 +358,15 @@ footer {
         left: 50%;
         transform: translate(-50%, -50%);
     }
+
+
+
+    .menu-450 {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
 }
 
 /*Sizing for large screens*/
