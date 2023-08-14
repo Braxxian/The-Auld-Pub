@@ -25,7 +25,7 @@ body {
 
 /*Head Section*/
 header {
-    height: 20vh;
+    height: 7.5rem;
     background-image: url("../images/pinewood.jpg");
     border-bottom: #361e06;
     border-bottom-style: double;
@@ -54,8 +54,8 @@ header {
 }
 
 .violin {
-    width: 6rem;
-    height: 6rem;
+    width: 4.5rem;
+    height: 4.5rem;
 }
 
 /*Nav Bar*/
@@ -76,7 +76,7 @@ header {
 }
 
 .navbar p:hover {
-    font-size: 2rem;
+    font-size: 1.8rem;
     opacity: 0.6;
     text-decoration: underline;
 }
@@ -90,7 +90,7 @@ header {
 /*Main Section*/
 main {
     flex: 1 0 auto;
-    padding-top: 20vh;
+    padding-top: 7.5rem;
     background: url('../images/pinewood.jpg');
 }
 
@@ -195,6 +195,7 @@ main {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+
 }
 
 .grill-heading {
@@ -222,9 +223,6 @@ main {
     align-items: center;
 }
 
-
-
-
 .front-page-menu {
     text-align: center;
     background-image: url("../images/pinewood.jpg");
@@ -244,7 +242,6 @@ main {
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.6);
 }
 
-
 .burger {
     width: 16rem;
     height: 16rem;
@@ -252,8 +249,6 @@ main {
     border: 4px solid #eead08;
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.6);
 }
-
-
 
 img {
     display: inline-block;
@@ -265,16 +260,55 @@ img {
     text-shadow: 1px 1px 2px #361e06;
 }
 
-/*Footer  --credit to Gerben Van Dijk @ stackoverflow
-for suggesting method of fixing the footer*/
+/*Contact Us Section*/
+.contact-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 38rem;
+    width: 100%;
+    background: url(../images/pub-scene-dark.jpg) no-repeat center center/cover;
+    padding-bottom: 64px;
+}
+
+.text-container-contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-right: 5px;
+    font-size: 1.4rem;
+    background-color: rgba(234, 236, 208, 0.3);
+    position: absolute;
+    width: 20rem;
+    height: 30rem;
+    border-radius: 10%;
+}
+
+.form-p {
+    text-align: center;
+    color: antiquewhite;
+    font-size: 1rem;
+    text-shadow: 1px 1px 1px #030303;
+    margin: 0.5rem;
+}
+.no-bullet{
+    list-style-type: none;
+}
+#msgbox{
+    display: block;
+    color: antiquewhite;
+    text-shadow: 1px 1px 1px #030303;
+}
+
+/*Footer Section*/
 footer {
     background-image: url(../images/pinewood.jpg);
     height: 4rem;
     width: 100%;
     background: center center no-repeat /cover;
     background-attachment: scroll;
-    background-position: 0% 0%;
     position: fixed;
+    background-position: 0% 0%;
     bottom: 0pt;
     left: 0pt;
     z-index: 99;
@@ -376,9 +410,10 @@ footer {
 
 /*Sizing for large screens*/
 @media screen and (min-width:769px) {
-header{
-    height: 23vh;
-}
+    header {
+        height: 23vh;
+    }
+
     .navbar p {
         font-size: 2.5rem;
         margin-bottom: 1rem;
@@ -395,6 +430,7 @@ header{
         width: 8rem;
         height: 6rem;
     }
+
     .h1smaller {
         font-size: 2.5rem;
     }
