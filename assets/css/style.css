@@ -119,8 +119,6 @@ main {
     width: 80%;
     height: 50%;
     border-radius: 10%;
-
-
 }
 
 .text-container .p1,
@@ -128,21 +126,6 @@ main {
     color: #361e06;
     font-size: 1.8rem;
     padding-left: 5px;
-}
-
-.red-text {
-    color: #e61313;
-    font-family: 'merriweather', serif;
-    text-shadow: 1px 1px 2px #361e06;
-}
-
-.red-text-left {
-    color: #e61313;
-    font-family: 'merriweather', serif;
-    text-align: left;
-    text-shadow: 1px 1px 2px #361e06;
-    margin-bottom: 0.5rem;
-    padding-left: 0.5rem;
 }
 
 .gold-text {
@@ -201,58 +184,49 @@ main {
 /*Menu Styles*/
 #the-grill {
     background-image: url("../images/flame-portrait.jpg");
-    display: flex;
-    flex-direction: column;
     padding-bottom: 64px;
 }
 
-.main-menu {
+.menu-container {
     display: flex;
     flex-direction: column;
+    align-items: center;
+
 }
 
 .front-page-menu {
-    align-items: flex-start;
     text-align: center;
     background-image: url("../images/pinewood.jpg");
     margin-top: 2.5rem;
     margin-bottom: 1rem;
-    margin-left: 1rem;
-    padding-top: 0.5rem;
-    height: 6rem;
-    width: 14rem;
-    line-height: 1.2rem;
-}
-
-.front-page-menu p span {
-    white-space: nowrap;
+    padding-top: 1rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    height: 8rem;
+    width: 16rem;
+    line-height: 1.5rem;
     font-family: 'Noto Serif', serif;
-    font-size: 0.85rem;
+    font-size: 1.2rem;
     color: #361e06;
-
+    border: 4px solid #eead08;
 }
 
-.image-1 {
-    background: url("../images/beef-burger-square.jpg");
-    background-repeat: no-repeat;
-    background-size: contain;
-    height: 8rem;
-    
+.burger {
+    width: 16rem;
+    height: 16rem;
+    border-radius: 50%;
+    border: 4px solid #eead08;
 }
 
-.image-2 {
-    background: url("../images/chicken-burger-square.jpg");
-    background-repeat: no-repeat;
-    background-size: contain;
-    height: 8rem;
+.red-text {
+    color: #e61313;
+    font-family: 'merriweather', serif;
+    text-shadow: 1px 1px 2px #361e06;
 }
 
-.image-3 {
-    background: url("../images/lentils-pistashios-burger-square.jpg");
-    background-repeat: no-repeat;
-    background-size: 12rem;
-    height: 8rem;
-}
+
+
+
 
 
 
