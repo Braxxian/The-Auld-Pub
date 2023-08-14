@@ -185,6 +185,12 @@ main {
 #the-grill {
     background-image: url("../images/flame-portrait.jpg");
     padding-bottom: 64px;
+    /*Parallax Effect*/
+    position: relative;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .menu-container {
@@ -209,6 +215,7 @@ main {
     font-size: 1.2rem;
     color: #361e06;
     border: 4px solid #eead08;
+    border-radius: 0.5rem;
 }
 
 .burger {
