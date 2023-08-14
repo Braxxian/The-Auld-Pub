@@ -187,7 +187,7 @@ main {
 
 /*Menu Styles*/
 #the-grill {
-    background-image: url("../images/flame-portrait.jpg");
+    background-image: url("../images/flame-portrait.webp");
     padding-bottom: 64px;
     /*Parallax Effect*/
     position: relative;
