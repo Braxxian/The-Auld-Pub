@@ -39,6 +39,8 @@ header {
 .header {
     display: flex;
     justify-content: center;
+    align-items: center;
+
 
 }
 
@@ -53,7 +55,12 @@ header {
 
 }
 
-.violin {
+.violin-left {
+    width: 4.5rem;
+    height: 4.5rem;
+}
+
+.violin-right {
     width: 4.5rem;
     height: 4.5rem;
 }
@@ -68,7 +75,7 @@ header {
 .navbar p {
     color: #eead08;
     font-family: 'merriweather', serif;
-    font-size: 1.6rem;
+    font-size: 1.4rem;
     letter-spacing: 2px;
     text-shadow: 2px 2px 2px #361e06;
     transition: 0.2s;
@@ -76,9 +83,16 @@ header {
 }
 
 .navbar p:hover {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     opacity: 0.6;
     text-decoration: underline;
+}
+
+.contact-link {
+    display: inline-block;
+    color: #361e06;
+    transition: 0.2s;
+    margin-left: 1rem;
 }
 
 
@@ -155,6 +169,9 @@ main {
 }
 
 .table-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 60%;
     margin: 0 auto;
 }
@@ -183,6 +200,7 @@ main {
 .music-text {
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 /*Menu Styles*/
@@ -365,25 +383,12 @@ footer {
     color: #423004;
 }
 
-.contact-link {
-    display: inline-block;
-    border: 2px solid #361e06;
-    border-radius: 10%;
-    margin-top: 1rem;
-    padding: 4px 8px;
-    color: #361e06;
-    background-color: #EEB22F;
-    transition: 0.2s;
-}
 
-.contact-link:hover {
-    background-color: antiquewhite;
-    color: #EEB22F;
-}
+
 
 
 /*Sizing for very small screens*/
-@media screen and (max-width: 375px) {
+@media screen and (min-width: 280px) {
     body {
         padding: 0;
     }
@@ -395,7 +400,7 @@ footer {
     }
 
     .navbar p {
-        font-size: 1.4rem;
+        font-size: 1.2rem;
     }
 
     .h1smaller {
@@ -420,6 +425,10 @@ footer {
 
 /*sizing to ease transition from tablets to larger screens*/
 @media screen and (min-width: 768px) {
+    #music {
+        background: url('../images/musicians-landscape.webp')no-repeat center center /cover;
+    }
+
     .text-container {
         width: 90%;
         height: 40%;
@@ -436,15 +445,18 @@ footer {
         align-items: center;
     }
 
-    img {
-        margin-top: 2rem;
-    }
+
 }
 
 /*Sizing for large screens*/
-@media screen and (min-width:769px) {
+
+@media screen and (min-width:900px) {
+    #music {
+        background: url('../images/musicians-landscape.webp')no-repeat center center /cover;
+    }
+
     header {
-        height: 23vh;
+        height: 20%;
     }
 
     .navbar p {
