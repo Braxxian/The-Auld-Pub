@@ -19,14 +19,14 @@ body {
     flex-direction: column;
     font-family: 'Noto Serif', serif;
     color: #361e06;
-    background-image: url("../images/pinewood.jpg");
+    background-image: url("../images/pinewood.webp");
 
 }
 
 /*Head Section*/
 header {
     height: 7.5rem;
-    background-image: url("../images/pinewood.jpg");
+    background-image: url("../images/pinewood.webp");
     border-bottom: #361e06;
     border-bottom-style: double;
     border-width: 3px;
@@ -91,7 +91,7 @@ header {
 main {
     flex: 1 0 auto;
     padding-top: 7.5rem;
-    background: url('../images/pinewood.jpg');
+    background: url('../images/pinewood.webp');
 }
 
 /*Hero Section*/
@@ -101,7 +101,7 @@ main {
     align-items: center;
     height: 38rem;
     width: 100%;
-    background: url(../images/view-bar-counter.jpg) no-repeat center center/cover;
+    background: url(../images/view-bar-counter.webp) no-repeat center center/cover;
     padding-bottom: 64px;
     /*Parallax Effect*/
     position: relative;
@@ -144,7 +144,7 @@ main {
 
 /*Music dates Table styles*/
 #music {
-    background: url('../images/musicians-portrait.jpg')no-repeat center center /cover;
+    background: url('../images/musicians-portrait.webp')no-repeat center center /cover;
     padding-bottom: 64px;
     /*Parallax Effect*/
     position: relative;
@@ -195,19 +195,18 @@ main {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-
 }
 
 .grill-heading {
-    background-image: url("../images/pinewood.jpg");
+    background-image: url("../images/pinewood.webp");
     align-items: center;
     text-align: center;
     width: 16rem;
-    height: 16rem;
-    border-radius: 50%;
+    height: 12rem;
     border: 4px solid #eead08;
-    margin-top: 1rem;
-    padding-top: 3.4rem;
+    border-radius: 0.5rem;
+    margin-top: 2rem;
+    padding-top: 1rem;
     line-height: 2.5rem;
     font-family: 'merriweather', serif;
     font-size: 1.8rem;
@@ -225,7 +224,7 @@ main {
 
 .front-page-menu {
     text-align: center;
-    background-image: url("../images/pinewood.jpg");
+    background-image: url("../images/pinewood.webp");
     margin-top: 2.5rem;
     margin-bottom: 1rem;
     padding-top: 1rem;
@@ -267,7 +266,7 @@ img {
     align-items: center;
     height: 38rem;
     width: 100%;
-    background: url(../images/pub-scene-dark.jpg) no-repeat center center/cover;
+    background: url(../images/pub-scene-dark.webp) no-repeat center center/cover;
     padding-bottom: 64px;
 }
 
@@ -335,7 +334,7 @@ button[type=submit]:hover {
 
 /*Footer Section*/
 footer {
-    background-image: url(../images/pinewood.jpg);
+    background-image: url(../images/pinewood.webp);
     height: 4rem;
     width: 100%;
     background: cover;
