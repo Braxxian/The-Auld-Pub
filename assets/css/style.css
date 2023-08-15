@@ -291,13 +291,46 @@ img {
     text-shadow: 1px 1px 1px #030303;
     margin: 0.5rem;
 }
-.no-bullet{
+
+.no-bullet {
     list-style-type: none;
+
 }
-#msgbox{
+
+input {
+    height: 2rem;
+    margin-top: 10px;
+}
+
+#msgbox {
     display: block;
     color: antiquewhite;
     text-shadow: 1px 1px 1px #030303;
+}
+
+input.larger {
+    height: 25px;
+    width: 25px;
+}
+
+ul {
+    margin-left: 22%;
+}
+
+button[type=submit] {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #EEB22F;
+    color: antiquewhite;
+    padding: 10px 10px;
+    border-radius: 5px;
+    margin-left: 38%;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+button[type=submit]:hover {
+    background-color: antiquewhite;
+    color: #EEB22F;
 }
 
 /*Footer Section*/
@@ -305,7 +338,7 @@ footer {
     background-image: url(../images/pinewood.jpg);
     height: 4rem;
     width: 100%;
-    background: center center no-repeat /cover;
+    background: cover;
     background-attachment: scroll;
     position: fixed;
     background-position: 0% 0%;
@@ -348,6 +381,7 @@ footer {
     background-color: antiquewhite;
     color: #EEB22F;
 }
+
 
 /*Sizing for very small screens*/
 @media screen and (max-width: 375px) {
