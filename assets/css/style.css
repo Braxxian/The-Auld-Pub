@@ -113,7 +113,7 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 38rem;
+    height: 100vh;
     width: 100%;
     background: url(../images/view-bar-counter.webp) no-repeat center center/cover;
     padding-bottom: 64px;
