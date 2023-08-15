@@ -228,7 +228,7 @@ main {
     line-height: 2.5rem;
     font-family: 'merriweather', serif;
     font-size: 1.8rem;
-    color: #eead08;
+    color: #361e06;
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.6);
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.6);
 
@@ -260,8 +260,8 @@ main {
 }
 
 .burger {
-    width: 16rem;
-    height: 16rem;
+    width: 14rem;
+    height: 14rem;
     border-radius: 50%;
     border: 4px solid #eead08;
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.6);
@@ -442,6 +442,10 @@ footer {
         width: 65%;
         justify-content: space-around;
         align-items: center;
+    }
+
+    .burger {
+        margin-top: 1rem;
     }
 
 
