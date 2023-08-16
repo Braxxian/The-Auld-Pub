@@ -60,6 +60,8 @@ The colors used were primarily: #361e06, #EEB22F, #e61313 and antiquewhite. Thes
 Fonts (other than stock web fonts) used were [Google Fonts](https://fonts.google.com) *' merriweather serif '* &
 *' Noto serif '*
 
+social media links were added using [Fontawesome](https://fontawesome.com/)
+
 ### Logo & Images
 
 The dirty old Pub logo:<img src="./assets/images/logo.png" width="100">
@@ -76,7 +78,58 @@ Also credit goes to [De Barra's Folk Pub](https://debarra.ie/) for inspiring the
 
 Looking forward, I would like to add a feature page, showcasing our range of craft beers and a gallery to allow site visitors to see highlights from past events
 
-## 
+## Testing
+
+###  Manual Testing
+
+The site has been thoroughly tested for responsivity using chrome developer tools on screens ranging from the galaxy 280px to 1080px
+
+The site was also tested on Google Chrome and Firefox web browsers.
+
+There were numerous issues during development with pages not rendering correctly at different resolutions. These were resolved by adding media queries to the css stylesheet.
+
+### HTML Validation
+
+[W3C Markup Validation Service](https://validator.w3.org/) was used for HTML error checking:
+<img src="./docs/HTML-validation.PNG">
+
+### CSS Validation
+[Jigsaw](https://jigsaw.w3.org/css-validator/) was used for CSS error checking
+<img src="./docs/CSS-validation.PNG">
+
+### Lighthouse
+
+The lighthouse tool in chrome developer tools was used to check for:
+ * performance
+ * accessibility
+ * best practices
+ * seo
+
+ Initially 'performance' on mobile devices was under performing at 74, this issue was fixed using [TinyPNG](https://tinypng.com/) to resize all images. This vastly imporoved the performance benchmark.
+
+lighthouse mobile:
+ <img src="./docs/light-house-mobile.JPG">
+
+lighthouse desktop
+<img src="./docs/light-house-desktop.JPG">https://tinypng.com/
+
+
+Technologies Used:
+
+All code was written using: [Visual Studio Code](https://code.visualstudio.com/)
+
+Version Control: [Git](https://git-scm.com/)
+
+Repository and Deployment: [Github](https://github.com/)
+
+Image Editing: [Faststone](https://www.faststone.org/)
+
+
+
+
+
+
+
 
 
 
