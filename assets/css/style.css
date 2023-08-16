@@ -357,7 +357,6 @@ footer {
     background-image: url(../images/pinewood.webp);
     height: 4rem;
     width: 100%;
-    background: cover;
     z-index: 99;
     border-top: #361e06;
     border-top-style: double;
