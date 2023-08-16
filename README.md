@@ -7,7 +7,7 @@
 ## Table of contents
 (To be populated later)
 
-## Planning
+## Planning & Development
 
 ### External user goals
 
@@ -41,6 +41,7 @@ the pub, giving the user a good feel for the environment
 * The site gives clear information about musical events and the food on offer
 * The site offer a sign up to a newsletter with a 'call to action' button
 * The site provides clear instruction on our location using an embedded google map
+
 
 ### Mock Up Pages
 
@@ -105,16 +106,17 @@ The lighthouse tool in chrome developer tools was used to check for:
  * best practices
  * seo
 
- Initially 'performance' on mobile devices was under performing at 74, this issue was fixed using [TinyPNG](https://tinypng.com/) to resize all images. This vastly imporoved the performance benchmark.
+ Initially 'performance' on mobile devices was under performing at 74, this issue was fixed using [TinyPNG](https://tinypng.com/) to resize all images. This vastly improved the performance benchmark.
+ Initially 'performance' on mobile devices was under performing at 74, this issue was fixed using [TinyPNG](https://tinypng.com/) to resize all images. This vastly improved the performance benchmark.
 
 lighthouse mobile:
  <img src="./docs/light-house-mobile.JPG">
 
 lighthouse desktop
-<img src="./docs/light-house-desktop.JPG">https://tinypng.com/
+<img src="./docs/light-house-desktop.JPG">
 
 
-Technologies Used:
+### Technologies Used:
 
 All code was written using: [Visual Studio Code](https://code.visualstudio.com/)
 
@@ -123,6 +125,15 @@ Version Control: [Git](https://git-scm.com/)
 Repository and Deployment: [Github](https://github.com/)
 
 Image Editing: [Faststone](https://www.faststone.org/)
+
+### Credits
+
+Thanks to:
+My code institute mentor, Oluwafemi Medale, for his support and suggestions.
+
+Julia Wagner for posting her readme on Slack, which as a first time writer of a readme, proved most helpful as a template for mine.
+
+
 
 
 
