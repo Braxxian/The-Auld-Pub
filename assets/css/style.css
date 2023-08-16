@@ -113,7 +113,7 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 38rem;
+    height: 100vh;
     width: 100%;
     background: url(../images/view-bar-counter.webp) no-repeat center center/cover;
     padding-bottom: 64px;
@@ -237,6 +237,7 @@ main {
 .menu-container {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
 }
 
@@ -265,6 +266,7 @@ main {
     border-radius: 50%;
     border: 4px solid #eead08;
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.6);
+    margin-left: 1rem;
 }
 
 img {
@@ -422,6 +424,13 @@ footer {
 @media screen and (min-width: 768px) {
     #music {
         background: url('../images/musicians-landscape.webp')no-repeat center center /cover;
+        padding-bottom: 64px;
+        /*Parallax Effect*/
+        position: relative;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
     }
 
     .text-container {
@@ -452,6 +461,13 @@ footer {
 @media screen and (min-width:900px) {
     #music {
         background: url('../images/musicians-landscape.webp')no-repeat center center /cover;
+        padding-bottom: 64px;
+        /*Parallax Effect*/
+        position: relative;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
     }
 
     header {
