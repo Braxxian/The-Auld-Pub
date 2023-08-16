@@ -1,39 +1,96 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# The Dirty Old Pub
 
-Welcome,
+[Link to live project](https://braxxian.github.io/The-Auld-Pub/)
 
-This is the Code Institute student template for Codeanywhere. If you are using Gitpod then you need [this template](https://github.com/Code-Institute-Org/gitpod-full-template) instead.  We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+![Am I Responsive Screen Snip](./docs/Responsive-devices.JPG)
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **July 26th, 2023**
+## Table of contents
+(To be populated later)
 
-## Codeanywhere Reminders
+## Planning
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
+### External user goals
 
-`python3 -m http.server`
+* Find a good pub with live music
+* Be informed of musical events & dates
+* Plan a night out
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+### Site owner goals
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
+* Attract customers to our pub
+* Provide information about events, food and drink
 
-`http_server`
+### User Stories
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+* As a user I want to be able to access and read the
+  site across all my devices
+* As a user I want to find evening entertainment
+* As a user I want to know what food and drink is
+  available      
+* As a user I want to be given an idea about the pub 
+  environment & it's location
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+### Features
 
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+* The site has been built to be fully responsive.
+* The images and colours used reflect the ambience of
+the pub, giving the user a good feel for the environment
+* The header clearly navigates the site and responds to user interaction
+* Parallax scrolling ensures a pleasing experience to the user
+* The footer gives links to all our social media pages
+* The site gives clear information about musical events and the food on offer
+* The site offer a sign up to a newsletter with a 'call to action' button
+* The site provides clear instruction on our location using an embedded google map
 
-To log into the Heroku toolbelt CLI:
+### Mock Up Pages
 
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+The original design ideas were created using [Draw.io](https://app.diagrams.net/)
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+The mock ups were created from a 'What sort of Pub would I like to visit'? perspective. And were freely adapted during development in an agile process based on user feedback.
 
----
+<img src="./docs/site-mockup-1.JPG" width="200">    <img src="./docs/site-mockup-2.JPG" width="200">
+<img src="./docs/site-mockup-3.JPG" width="200">
 
-Happy coding!
+### Color Scheme
+
+The colors used were primarily: #361e06, #EEB22F, #e61313 and antiquewhite. These were chosen to compliment the background images and provide a cohesive tone for the site
+
+### Fonts
+
+Fonts (other than stock web fonts) used were [Google Fonts](https://fonts.google.com) *' merriweather serif '* &
+*' Noto serif '*
+
+### Logo & Images
+
+The dirty old Pub logo:<img src="./assets/images/logo.png" width="100">
+was created using [myfreelogomaker](https://www.myfreelogomaker.com)
+
+All images used were taken from:-
+* [Pexels.com](https://www.pexels.com)
+* [Unsplash.com](https://unsplash.com)
+* [Freepik.com](https://www.freepik.com)
+
+Also credit goes to [De Barra's Folk Pub](https://debarra.ie/) for inspiring the presentation of my music listings
+
+## Future development
+
+Looking forward, I would like to add a feature page, showcasing our range of craft beers and a gallery to allow site visitors to see highlights from past events
+
+## 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
