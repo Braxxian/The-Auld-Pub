@@ -36,6 +36,7 @@
 * The images and colours used reflect the ambience of
 the pub, giving the user a good feel for the environment
 * The header clearly navigates the site and responds to user interaction
+* Clicking or tapping the Logo zooms back to the home page
 * Parallax scrolling ensures a pleasing experience to the user
 * The footer gives links to all our social media pages
 * The site gives clear information about musical events and the food on offer
@@ -83,11 +84,27 @@ Looking forward, I would like to add a feature page, showcasing our range of cra
 
 ###  Manual Testing
 
-The site has been thoroughly tested for responsivity using chrome developer tools on screens ranging from the galaxy 280px to 1080px
+The site has been thoroughly tested for responsivity using chrome developer tools on screens ranging from the iphoneSE 375px to nesthub max 1280px:
+
+*iphoneSE 375px*
+<img src="./docs/IphoneSE 375px.JPG" width="100">*iphone 12 pro*
+ <img src="./docs/iphone 12 pro 390px.JPG" width="100">
+
+
+
+ *Samsung Galaxy S20 412px*
+ <img src="./docs/Samsung Galaxy S20 ultra 412px.JPG" width="100">*ipad air 820px*
+ <img src="./docs/ipad air 820px.JPG" width="200">
+
+*nesthub max 1280px*
+<img src="./docs/nesthub max 1280pxJPG.JPG" width="400">
+
 
 The site was also tested on Google Chrome and Firefox web browsers.
 
 There were numerous issues during development with pages not rendering correctly at different resolutions. These were resolved by adding media queries to the css stylesheet.
+
+
 
 ### HTML Validation
 
@@ -97,6 +114,8 @@ There were numerous issues during development with pages not rendering correctly
 ### CSS Validation
 [Jigsaw](https://jigsaw.w3.org/css-validator/) was used for CSS error checking
 <img src="./docs/CSS-validation.PNG">
+
+
 
 ### Lighthouse
 
