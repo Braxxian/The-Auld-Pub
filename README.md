@@ -145,6 +145,18 @@ Repository and Deployment: [Github](https://github.com/)
 
 Image Editing: [Faststone](https://www.faststone.org/)
 
+## Deployment
+
+To deploy the github repository to gitpages:
+
+1. Open your repository in Github and click on settings (top-right)<img src="./docs/deploy1.JPG">
+
+1. Select Pages from the left-hand bar <img src="./docs/Deploy2.JPG">
+
+1. Select Deploy from branch, main, /root and click save<img src="./docs/deploy3.JPG">
+
+1. Wait a moment, when the site is deployed, you can see the URL<img src="./docs/Deploy4.JPG">
+
 ### Credits
 
 Thanks to:
