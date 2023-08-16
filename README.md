@@ -107,7 +107,7 @@ The lighthouse tool in chrome developer tools was used to check for:
  * seo
 
  Initially 'performance' on mobile devices was under performing at 74, this issue was fixed using [TinyPNG](https://tinypng.com/) to resize all images. This vastly improved the performance benchmark.
- Initially 'performance' on mobile devices was under performing at 74, this issue was fixed using [TinyPNG](https://tinypng.com/) to resize all images. This vastly improved the performance benchmark.
+ 
 
 lighthouse mobile:
  <img src="./docs/light-house-mobile.JPG">
