@@ -134,6 +134,11 @@ lighthouse mobile:
 lighthouse desktop
 <img src="./docs/light-house-desktop.JPG">
 
+## Bugs
+
+There is an issue on very small screens: The Galaxy fold 280px fails to display full width, resulting in a vertical line of exposure to the body alongside the scroll bar:
+<img src="./docs/Galaxy-fold-bug.JPG" width="200">
+
 
 ### Technologies Used:
 
@@ -163,6 +168,9 @@ Thanks to:
 My code institute mentor, Oluwafemi Medale, for his support and suggestions.
 
 Julia Wagner for posting her readme on Slack, which as a first time writer of a readme, proved most helpful as a template for mine.
+
+Thanks also to fellow students Oleksy Lazarenko & Hennadii for there
+encouragement & support
 
 
 
