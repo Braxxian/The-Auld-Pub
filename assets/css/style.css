@@ -356,10 +356,6 @@ footer {
     height: 4rem;
     width: 100%;
     background: cover;
-    background-attachment: scroll;
-    background-position: 0% 0%;
-    bottom: 0pt;
-    left: 0pt;
     z-index: 99;
     border-top: #361e06;
     border-top-style: double;
