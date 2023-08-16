@@ -11,14 +11,15 @@
 
 ### External user goals
 
-* Find a good pub with live music
+* Find a good pub with live music & food
 * Be informed of musical events & dates
 * Plan a night out
 
 ### Site owner goals
 
 * Attract customers to our pub
-* Provide information about events, food and drink
+* Provide information about events
+* Establish a 'ONELegend' Brand of superior quality burgers
 
 ### User Stories
 
@@ -37,6 +38,8 @@
 the pub, giving the user a good feel for the environment
 * The header clearly navigates the site and responds to user interaction
 * Clicking or tapping the Logo zooms back to the home page
+* Clicking or tapping the 'gigs','contact' & 'grill' takes the user to the relevant page
+
 * Parallax scrolling ensures a pleasing experience to the user
 * The footer gives links to all our social media pages
 * The site gives clear information about musical events and the food on offer
@@ -73,8 +76,6 @@ All images used were taken from:-
 * [Pexels.com](https://www.pexels.com)
 * [Unsplash.com](https://unsplash.com)
 * [Freepik.com](https://www.freepik.com)
-
-Also credit goes to [De Barra's Folk Pub](https://debarra.ie/) for inspiring the presentation of my music listings
 
 ## Future development
 
@@ -172,7 +173,7 @@ Julia Wagner for posting her readme on Slack, which as a first time writer of a 
 Thanks also to fellow students Oleksy Lazarenko & Hennadii for there
 encouragement & support
 
-
+Also credit goes to [De Barra's Folk Pub](https://debarra.ie/) for inspiring the presentation of my music listings
 
 
 
