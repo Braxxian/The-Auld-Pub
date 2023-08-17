@@ -135,7 +135,7 @@ main {
     background-color: rgba(234, 236, 208, 0.3);
     position: absolute;
     width: 80%;
-    height: 50%;
+    height: 60%;
     border-radius: 10%;
 }
 
@@ -350,6 +350,22 @@ button[type=submit] {
 button[type=submit]:hover {
     background-color: antiquewhite;
     color: #EEB22F;
+}
+
+.location {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Noto Serif', serif;
+    font-size: 0.8rem;
+    height: 8rem;
+    width: 100%;
+    background-color: antiquewhite;
+}
+
+.address {
+    text-align: center;
 }
 
 /*Footer Section*/
