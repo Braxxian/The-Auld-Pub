@@ -190,6 +190,7 @@ lighthouse desktop
 ## Bugs
 
 There is an issue on very small screens: The Galaxy fold 280px fails to display full width, resulting in a vertical line of exposure to the body alongside the scroll bar:
+
 <img src="./docs/Galaxy-fold-bug.JPG" width="200">
 
 
@@ -219,13 +220,13 @@ To deploy the github repository to gitpages:
 
 Thanks to:
 
-Livetrad.com for alllowing youtube to embed a clip of 'Dervish' playing live, which was used in the music section
+Livetrad.com for allowing youtube to share an embed of a clip of 'Dervish' playing live, which was used in the music section
 
 My code institute mentor, Oluwafemi Medale, for his support and suggestions.
 
 Julia Wagner for posting her readme on Slack, which as a first time writer of a readme, proved most helpful as a template for mine.
 
-Thanks also to fellow students Oleksy Lazarenko & Hennadii for there
+Thanks also to fellow students Oleksy Lazarenko & Hennadii for their
 encouragement & support
 
 Also credit goes to [De Barra's Folk Pub](https://debarra.ie/) for inspiring the presentation of my music listings
