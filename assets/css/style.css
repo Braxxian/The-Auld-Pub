@@ -259,7 +259,7 @@ main {
     background-image: url("../images/pinewood.webp");
     margin-top: 2.5rem;
     margin-bottom: 1rem;
-    padding-top: 1rem;
+    padding-top: 0.25rem;
     padding-left: 0.5rem;
     padding-right: 0.5rem;
     height: 8rem;
@@ -432,8 +432,8 @@ footer {
         font-size: 1.2rem;
     }
 
-    .h1smaller {
-        font-size: 1.4rem;
+    .h1-font {
+        font-size: 1.6rem;
     }
 
     .text-container .p1,
@@ -467,11 +467,15 @@ footer {
 
 
     .text-container {
-        width: 90%;
-        height: 40%;
+        width: 80%;
+        height: 60%;
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
+    }
+
+    .h1-font {
+        font-size: 4rem;
     }
 
     .wrapper {
@@ -504,6 +508,7 @@ footer {
     }
 
     .front-page-menu {
+        height: 10rem;
         width: 24rem;
         font-size: 1rem;
         line-height: 1.4;
