@@ -21,7 +21,7 @@
 
 [Fonts](#fonts)
 
-[Logo & Images](#Logo)
+[Logo & Images](#logo-images)
 
 [Future & Development](#future-development)
 
@@ -119,7 +119,7 @@ Fonts (other than stock web fonts) used were [Google Fonts](https://fonts.google
 
 social media links were added using [Fontawesome](https://fontawesome.com/)
 
-### Logo & Images
+### Logo Images
 
 The dirty old Pub logo:<img src="./assets/images/logo.png" width="100">
 was created using [myfreelogomaker](https://www.myfreelogomaker.com)
