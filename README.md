@@ -5,7 +5,48 @@
 ![Am I Responsive Screen Snip](./docs/Responsive-devices.JPG)
 
 ## Table of contents
-(To be populated later)
+[Planning & Development](#planning)
+
+[External user goals](#external-user-goals)
+
+[Site owner goals](#site-owner-goals)
+
+[User stories](#user-stories)
+
+[Features](#features)
+
+[Mock-up pages](#mock-up-pages)
+
+[Color Scheme](#color-scheme)
+
+[Fonts](#fonts)
+
+[Logo & Images](#Logo)
+
+[Future & Development](#future-development)
+
+[Testing](#testing)
+
+[HTML Validation](#html-validation)
+
+[CSS Validation](#css-validation)
+
+[Lighthouse](#lighthouse)
+
+[Bugs](#bugs)
+
+[Technologies Used](#technologies-used)
+
+[Deployment](#deployment)
+
+[Credits](#credits)
+
+
+
+
+
+
+
 
 ## Planning & Development
 
@@ -94,14 +135,17 @@ The site has been thoroughly tested for responsivity using chrome developer tool
 
 
  *Samsung Galaxy S20 412px*
- <img src="./docs/Samsung Galaxy S20 ultra 412px.JPG" width="100">*ipad air 820px*
+ <img src="./docs/Samsung Galaxy S20 ultra 412px.JPG"
+  width="100">
+
+ *ipad air 820px*
  <img src="./docs/ipad air 820px.JPG" width="200">
 
 *nesthub max 1280px*
 <img src="./docs/nesthub max 1280pxJPG.JPG" width="400">
 
 
-The site was also tested on Google Chrome and Firefox web browsers.
+The site was also tested on Google Chrome, microsoft Edge and Firefox web browsers.
 
 There were numerous issues during development with pages not rendering correctly at different resolutions. These were resolved by adding media queries to the css stylesheet.
 
