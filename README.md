@@ -87,15 +87,20 @@ the pub, giving the user a good feel for the environment
 
 * The music section has a video clip showcasing a band playing in the pub
 
-<img src="./docs/music-clip.PNG">
+<img src="./docs/music-clip.PNG" width="300">
+
 * Parallax scrolling ensures a pleasing experience to the user
+
+
 * The footer gives links to all our social media pages
 <img src="./docs/footer.PNG">
 * The site gives clear information about musical events and the food on offer
-<img src="./docs/events.PNG">
+
+<img src="./docs/events.PNG" width="200"><img src="./docs/burger.JPG" height="300">
+
 * The site offer a sign up to a newsletter with a 'call to action' button
 
-<img src="./docs/call-action.PNG">
+<img src="./docs/call-action.PNG" width="250">
 
 * The site provides clear instruction on our location using an embedded google map
 <img src="./docs/location.PNG">
