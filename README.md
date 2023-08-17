@@ -77,15 +77,23 @@
 * The site has been built to be fully responsive.
 * The images and colours used reflect the ambience of
 the pub, giving the user a good feel for the environment
-* The header clearly navigates the site and responds to user interaction
+* The header clearly navigates the site and responds to user interaction by use of opacity,size and underline
+<img src="./docs/navbar.PNG">
 * Clicking or tapping the Logo zooms back to the home page
 * Clicking or tapping the 'gigs','contact' & 'grill' takes the user to the relevant page
 * The music section has a video clip showcasing a band playing in the pub
+<img src="./docs/music-clip.PNG">
 * Parallax scrolling ensures a pleasing experience to the user
 * The footer gives links to all our social media pages
+<img src="./docs/footer.PNG">
 * The site gives clear information about musical events and the food on offer
+<img src="./docs/events.PNG">
 * The site offer a sign up to a newsletter with a 'call to action' button
+
+<img src="./docs/call-action.PNG">
+
 * The site provides clear instruction on our location using an embedded google map
+<img src="./docs/location.PNG">
 
 
 ### Mock Up Pages
