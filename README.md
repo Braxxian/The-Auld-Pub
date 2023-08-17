@@ -52,7 +52,8 @@
 
 ### External user goals
 
-* Find a good pub with live music & food
+* Find a good pub with live music
+* Enjoy high quality food
 * Be informed of musical events & dates
 * Plan a night out
 
@@ -60,15 +61,17 @@
 
 * Attract customers to our pub
 * Provide information about events
+* Help customers to easily find us
 * Establish a 'ONELegend' Brand of superior quality burgers
+* Build the pubs reputation
 
 ### User Stories
 
 * As a user I want to be able to access and read the
-  site across all my devices
+  site across all screen sizes
 * As a user I want to find evening entertainment
 * As a user I want to know what food and drink is
-  available      
+  available and be assured of high quality     
 * As a user I want to be given an idea about the pub 
   environment & it's location
 
