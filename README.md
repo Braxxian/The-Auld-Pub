@@ -84,7 +84,9 @@ the pub, giving the user a good feel for the environment
 <img src="./docs/navbar.PNG">
 * Clicking or tapping the Logo zooms back to the home page
 * Clicking or tapping the 'gigs','contact' & 'grill' takes the user to the relevant page
+
 * The music section has a video clip showcasing a band playing in the pub
+
 <img src="./docs/music-clip.PNG">
 * Parallax scrolling ensures a pleasing experience to the user
 * The footer gives links to all our social media pages
