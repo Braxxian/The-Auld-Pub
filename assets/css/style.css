@@ -40,8 +40,6 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-
-
 }
 
 .logo {
@@ -52,7 +50,6 @@ header {
     border-style: groove;
     border-width: 2px;
     box-shadow: 1px 1px 2px black;
-
 }
 
 .violin-left {
@@ -69,7 +66,6 @@ header {
 .navbar {
     display: flex;
     justify-content: space-around;
-
 }
 
 .navbar p {
@@ -79,7 +75,6 @@ header {
     letter-spacing: 2px;
     text-shadow: 2px 2px 2px #361e06;
     transition: 0.2s;
-
 }
 
 .navbar p:hover {
@@ -95,11 +90,9 @@ header {
     margin-left: 1rem;
 }
 
-
 .navbar a {
     text-decoration: none;
 }
-
 
 /*Main Section*/
 main {
@@ -244,7 +237,6 @@ main {
     color: #361e06;
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.6);
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.6);
-
 }
 
 .menu-container {
@@ -326,7 +318,6 @@ img {
 
 .no-bullet {
     list-style-type: none;
-
 }
 
 input {
@@ -413,9 +404,6 @@ footer {
 }
 
 
-
-
-
 /*Sizing for very small screens*/
 @media screen and (min-width: 280px) {
     body {
@@ -452,7 +440,7 @@ footer {
     }
 }
 
-/*sizing to ease transition from tablets to larger screens*/
+/*sizing for tablets & laptops*/
 @media screen and (min-width: 768px) {
     #music {
         background: url('../images/musicians-landscape.webp')no-repeat center center /cover;
@@ -464,7 +452,6 @@ footer {
         background-repeat: no-repeat;
         background-size: cover;
     }
-
 
     .text-container {
         width: 80%;
@@ -489,11 +476,9 @@ footer {
     .burger {
         margin-top: 1rem;
     }
-
-
 }
 
-/*Sizing for large screens*/
+/*Sizing for Desktops*/
 
 @media screen and (min-width:1080px) {
     #music {
@@ -553,5 +538,4 @@ footer {
         font-size: 2.5rem;
 
     }
-
 }
