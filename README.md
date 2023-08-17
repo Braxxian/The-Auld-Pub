@@ -80,7 +80,7 @@ the pub, giving the user a good feel for the environment
 * The header clearly navigates the site and responds to user interaction
 * Clicking or tapping the Logo zooms back to the home page
 * Clicking or tapping the 'gigs','contact' & 'grill' takes the user to the relevant page
-
+* The music section has a video clip showcasing a band playing in the pub
 * Parallax scrolling ensures a pleasing experience to the user
 * The footer gives links to all our social media pages
 * The site gives clear information about musical events and the food on offer
@@ -210,6 +210,9 @@ To deploy the github repository to gitpages:
 ### Credits
 
 Thanks to:
+
+Livetrad.com for alllowing youtube to embed a clip of 'Dervish' playing live, which was used in the music section
+
 My code institute mentor, Oluwafemi Medale, for his support and suggestions.
 
 Julia Wagner for posting her readme on Slack, which as a first time writer of a readme, proved most helpful as a template for mine.
