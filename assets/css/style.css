@@ -536,6 +536,9 @@ footer {
     .text-container .p1,
     .text-container .p2 {
         font-size: 2.5rem;
+    }
 
+    .contact-form {
+        background: url(../images/pub-scene-dark.jpg) no-repeat center center/cover;
     }
 }
