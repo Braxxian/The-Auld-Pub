@@ -320,7 +320,7 @@ img {
     border-radius: 10%;
 }
 
-.form-p {
+.form {
     text-align: center;
     color: antiquewhite;
     font-size: 1rem;
@@ -359,9 +359,10 @@ button[type=submit] {
     font-family: 'Times New Roman', Times, serif;
     background-color: #EEB22F;
     color: antiquewhite;
-    padding: 10px 10px;
+    width: 8rem;
+    padding: 15px 10px;
     border-radius: 5px;
-    margin-left: 38%;
+    margin-left: 25%;
     cursor: pointer;
     transition: 0.4s;
 }
@@ -562,5 +563,12 @@ footer {
 
     .contact-form {
         background: url(../images/pub-scene-dark.jpg) no-repeat center center/cover;
+    }
+
+    .text-container-contact {
+        padding-top: 20px;
+        margin-top: 4rem;
+        width: 60rem;
+        height: 30rem;
     }
 }
