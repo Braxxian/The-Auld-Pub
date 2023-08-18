@@ -102,7 +102,7 @@ main {
 }
 
 /*Hero Section*/
-#hero {
+.hero {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -167,6 +167,7 @@ main {
     justify-content: center;
     width: 60%;
     margin: 0 auto;
+
 }
 
 .table-music {
@@ -188,6 +189,17 @@ main {
     font-size: 1.6rem;
     font-weight: 600;
     color: #EEB22F;
+}
+
+.music-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1rem;
+    font-size: 2rem;
+    font-weight: 600;
+    color: #EEB22F;
+
 }
 
 .music-text {
@@ -328,6 +340,9 @@ input {
 #msgbox {
     display: block;
     color: antiquewhite;
+    margin-top: 1rem;
+    margin-left: 0.25rem;
+    font-size: 1rem;
     text-shadow: 1px 1px 1px #030303;
 }
 
@@ -482,7 +497,7 @@ footer {
 
 @media screen and (min-width:1080px) {
     #music {
-        background: url('../images/musicians-landscape.webp')no-repeat center center /cover;
+        background: url('../images/musicians-portrait.webp')no-repeat center center /cover;
         padding-bottom: 64px;
         /*Parallax Effect*/
         position: relative;
