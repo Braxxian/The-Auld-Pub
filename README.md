@@ -1,5 +1,6 @@
 # The Dirty Old Pub
 
+## About
 [Link to live project](https://braxxian.github.io/The-Auld-Pub/)
 
 ![Am I Responsive Screen Snip](./docs/Responsive-devices.JPG)
