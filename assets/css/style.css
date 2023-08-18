@@ -312,10 +312,11 @@ img {
     flex-direction: column;
     align-items: center;
     padding-right: 5px;
+    padding-top: 20px;
     font-size: 1.4rem;
     background-color: rgba(234, 236, 208, 0.3);
     position: absolute;
-    width: 20rem;
+    width: 50%;
     height: 30rem;
     border-radius: 10%;
 }
