@@ -153,7 +153,7 @@ main {
 #music {
     background: url('../images/musicians-portrait.webp')no-repeat center center /cover;
     padding-bottom: 64px;
-    /*Parallax Effect*/
+    /*Parallax Effect taken from w3schools*/
     position: relative;
     background-attachment: fixed;
     background-position: center;
@@ -225,7 +225,7 @@ main {
 #the-grill {
     background-image: url("../images/flame-portrait.webp");
     padding-bottom: 64px;
-    /*Parallax Effect*/
+    /*Parallax Effect taken from w3schools*/
     position: relative;
     background-attachment: fixed;
     background-position: center;
@@ -461,7 +461,7 @@ footer {
     #music {
         background: url('../images/musicians-landscape.webp')no-repeat center center /cover;
         padding-bottom: 64px;
-        /*Parallax Effect*/
+        /*Parallax Effect taken from w3schools*/
         position: relative;
         background-attachment: fixed;
         background-position: center;
@@ -507,7 +507,7 @@ footer {
     #music {
         background: url('../images/musicians-portrait.webp')no-repeat center center /cover;
         padding-bottom: 64px;
-        /*Parallax Effect*/
+        /*Parallax Effect taken from w3schools*/
         position: relative;
         background-attachment: fixed;
         background-position: center;
