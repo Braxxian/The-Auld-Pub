@@ -82,7 +82,9 @@
 * The images and colours used reflect the ambience of
 the pub, giving the user a good feel for the environment
 * The header clearly navigates the site and responds to user interaction by use of opacity,size and underline
+
 <img src="./docs/navbar.PNG">
+
 * Clicking or tapping the Logo zooms back to the home page
 * Clicking or tapping the 'gigs','contact' & 'grill' takes the user to the relevant page
 
@@ -159,6 +161,7 @@ The site has been thoroughly tested for responsivity using chrome developer tool
 
  *ipad air 820px*
  <img src="./docs/ipad air 820px.JPG" width="200">
+
 
 *nesthub max 1280px*
 <img src="./docs/nesthub max 1280pxJPG.JPG" width="400">
